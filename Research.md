@@ -68,7 +68,7 @@ function Bar(){
 
 ##Week05-Day02## HOMEWORK
 
-Sort the array below, WITHOUT using javascript built-in Sort() function.
+Sort the array below in ascending order, WITHOUT using Javascript built-in Sort() function.
 
 
 ```
