@@ -52,6 +52,7 @@ function Bar(){
 ```
 
 Answer:
+
 ````
 let a = 5;
 
@@ -67,17 +68,16 @@ function Bar(){
 
 ##Week05-Day02## Homework
 
-```
-arr=[1,4,7,8,9,23,90,8]
-
 arr massivini sort metodu olmadan azdan çoxa sıralayın
 
+
+```
+arr=[1,4,7,8,9,23,90,8]
 ```
 
 Answer:
 
 ```
-
 function bubbleSort(array) {
   var done = false;
   while (!done) {
@@ -98,8 +98,8 @@ function bubbleSort(array) {
 var numbers = [1,4,7,8,9,23,90,8];
 bubbleSort(numbers);
 console.log(numbers);
-
 ```
+
 
 
 
