@@ -66,9 +66,9 @@ function Bar(){
 }
 ```
 
-##Week05-Day02## Homework
+##Week05-Day02## HOMEWORK
 
-arr massivini sort metodu olmadan azdan çoxa sıralayın
+Sort the array below, WITHOUT using javascript built-in Sort() function.
 
 
 ```
