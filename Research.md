@@ -53,7 +53,7 @@ function Bar(){
 
 Answer:
 
-````
+```
 let a = 5;
 
 function Foo(){
