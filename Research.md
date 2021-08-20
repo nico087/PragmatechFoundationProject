@@ -100,7 +100,7 @@ bubbleSort(numbers);
 console.log(numbers);
 ```
 
-### HACKERRANK ### TASK 1 ###
+## HACKERRANK ## TASK 1 ##
 
 ```
 
@@ -121,6 +121,13 @@ function greeting(parameterVariable) {
 }
 ```
 
+##Week05-Day04## HOMEWORK
 
+DOM-da element və node arasında fərqlər və bənzərliklər nədir?
+
+Cavab:
+Node - DOM iyerarxıyasında hər hansı bir obyektə verilən ümumi bir addır. Node hemçinin DOM elementin daxili elementi de ola bilir. Misal üçün document.body. HTML taglerde ola biler. Misal üçün <p>. 
+
+Element is hər hansı bir konkret tipdir. Element xüsüsi bir qovşaq növüdur ve HTML içərisində tag-lərin köməyilə göstərilə bilər. Həmçinin xüsusiyyətləri də ola bilər. Misal üçün id və class. 
 
 
