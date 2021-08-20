@@ -1,0 +1,21 @@
+.leftside {
+    background-color: red;
+    width: 50%;
+    height: 150px;
+    border: 1px
+}
+
+.rightside {
+    background-color: green;
+    width: 50%;
+    height: 150px;
+    border: 1px
+
+}
+
+.newdiv {
+    background-color: orange;
+    width: 200px;
+    height: 150px;
+
+}
