@@ -1,0 +1,28 @@
+.div1 {
+    background-color: rgb(35, 156, 52);
+    border: solid 3px red;
+    height: 200px;
+    width: 200px;
+    transition-delay: 10s;
+}
+
+.center {
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.right {
+    position: absolute;
+    transition-delay: 10s;
+    right: 0px;
+    height: 200px;
+    width: 200px;
+    border: solid 3px red;
+    padding: 10px;
+    background-color: rgb(35, 156, 52);
+  }
