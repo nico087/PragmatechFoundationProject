@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homework - TASK</title>
@@ -22,20 +23,19 @@
         <div class="rightside"></div>
     </div>
     
-    
+    <div id="newid"></div>
     
     <div id="new-bottom-row" class="row bottom-level">
         <div id="new-div-main" class="newdiv"></div>
 
     </div>
 <script>
-function myFunction() {
-    var original = document.getElementById("new-div-main");
-    var clone = original.cloneNode(true);
-    document.getElementById("new-bottom-row").appendChild(clone);
-}
+    function myFunction() {
+        var original = document.getElementById("new-div-main");
+        var clone = original.cloneNode(true);
+        document.getElementById("new-bottom-row").appendChild(clone);
+    }
 </script>
-
 
     
 

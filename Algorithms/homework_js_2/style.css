@@ -1,0 +1,26 @@
+.mydiv {
+background-color: red;
+width: 300px;
+height: 200px;
+justify-content: center;
+
+}
+
+.center {
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(35, 156, 52);
+    width: 300px;
+    height: 200px
+}
+
+h3 {
+    position:relative;
+    size: 20px;
+    color:black;
+    
+}
