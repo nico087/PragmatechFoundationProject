@@ -131,3 +131,91 @@ Node - DOM iyerarxıyasında hər hansı bir obyektə verilən ümumi bir addır
 Element is hər hansı bir konkret tipdir. Element xüsüsi bir qovşaq növüdur ve HTML içərisində tag-lərin köməyilə göstərilə bilər. Həmçinin xüsusiyyətləri də ola bilər. Misal üçün id və class. 
 
 
+## Week07-Day01 ## TASK ##
+
+1. Python data tiplər hansılardır və Javascript data tiplərindən nə kimi fərqləri var:
+
+Numeric Data Types
+Pythonun elmi məqsədlər üçün dəqiq hesablamalar aparmağımıza kömək edəcək üç ədəd növü var. Bu ədədi növlərə daxildir: int (tam ədədlər), float (üzən nöqtə ədədləri) və kompleks. Hər birinin öz xüsusiyyətləri, xüsusiyyətləri və tətbiqləri var. Bunun əksinə olaraq, JavaScript -in yalnız iki ədəd növü var: Number və BigInt. Tam ədədlər və üzən nöqtə ədədləri həm Nömrəli tip sayılır. 
+
+None vs. null
+NONE - JavaScript -dəki ekvivalent dəyər sıfırdır və "hər hansı bir obyekt dəyərinin qəsdən olmamasını ifadə edir" 
+NULL - JavaScript -dəki ekvivalent dəyər "heç bir obyekt dəyərinin qəsdən yoxluğunu əks etdirən" sıfırdır.
+
+The undefined Value
+JavaScript -də, bir ilkin dəyər təyin etmədən bir dəyişəni elan edərkən avtomatik olaraq təyin olunan xüsusi bir dəyərimiz var. 
+Pythonda dəyişənə ilkin dəyər təyin etməlisiniz. İlkin dəyər olmadan elan edə bilmərik. 
+
+Primitive Data Types in Python and JavaScript
+İbtidai məlumat növləri, proqramlaşdırma dilində işləyə biləcəyimiz ən əsas dəyərləri təmsil edir. Bu iki dilin ibtidai məlumat növlərini müqayisə edək: 
+
+Python: Integers (int), Floats (float), Booleans (bool), and strings (str).
+JavaScripts: undefined, Boolean, String, Number, BigInt, and Symbol.
+
+2. Python operatorları hansılardır Javascriptdə olmayan lakin python-da olan operatorları yazın:
+
+Logical Operators
+Python - and, or, not.
+JavaScript - &&, ||, ! 
+
+Comparing Values and Types
+Python ==
+Javascript ===
+
+Type Operators
+Python type()
+JavaScript typeof
+
+3. Python data tiplərinin başqa data tiplərinə çevrilmə ilə əlaqədar 5 nümunə yazın:
+```
+# floating point to integer
+ 
+f = 10.0
+ 
+# Converting to integer
+n = int(f)
+print(n)
+print(type(n))
+
+-----------------------
+
+# integer to float
+ 
+n = 10
+ 
+# Converting to float
+f = float(n)
+print(f)
+print(type(f))
+
+-------------------
+
+
+a = 10
+ 
+# Converting number to string
+s = str(a)
+print(s)
+print(type(s))
+
+---------------------
+```
+
+4. Void və return funksiya nədir və python-da necə təyin olunur:
+
+Qayıdış ifadələri bir funksiyadan çıxmağımıza və eyni zamanda funksiyanı çağırana bir dəyəri qaytarmağımıza imkan verir. Bir funksiyanın icrasını dayandırmasına səbəb olur və dəyəri başqa bir ifadəyə deyirlər. Bir qayıtma ifadəsindən sonra hər hansı bir kod yazsanız belə, icra edilməyəcək, çünki idarəetmə funksiyadan çıxacaq. 
+
+Example:
+```
+def add(a, b):
+ 
+    # returning sum of a and b
+    return a + b
+
+# calling function
+res = add(2, 3)
+print("Result of add function is {}".format(res))
+```
+
+
+
