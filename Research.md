@@ -241,4 +241,13 @@ if __name__ == '__main__':
 ```
 
 
+##Week08-Day02## Homework
+```
+const queryString = window.location.search;
 
+const urlParams = new URLSearchParams(queryString);
+
+const page_type = urlParams.get('page_type')
+
+console.log(page_type);
+```
